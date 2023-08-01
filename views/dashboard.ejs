@@ -1,0 +1,8 @@
+<%- include('header', { pageTitle: 'Dashboard', username: user.username }) %>
+    <div class="dash">
+        <h2>Welcome to SuperCoder-2024 Batch</h2>
+
+        <button><a href="/logout" style="color: white">Logout</a></button>
+    </div>
+
+    <%- include('data', { data: data }) %>

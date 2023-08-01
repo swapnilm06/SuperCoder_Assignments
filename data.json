@@ -1,0 +1,13 @@
+[{
+        "name": "College Name : RCPIT",
+        "description": "This is the description of RCPIT college. It provides details about a RCPIT."
+    },
+    {
+        "name": "College Name : MIT",
+        "description": "This is the description of MIT college. It provides details about a MIT."
+    },
+    {
+        "name": "College Name : IIT",
+        "description": "This is the description of IIT college. It provides details about a IIT."
+    }
+]
