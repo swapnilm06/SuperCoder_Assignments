@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 // Function to read data from 'data.json' file
 function readDataFromJson() {
     try {
-        const data = fs.readFileSync('C:\\Users\\swapn\\Downloads\\ServerSide Rendering\\Supercoder-Assignments-main\\Server-side Rendering\\data.json', 'utf8');
+        const data = fs.readFileSync('data.json', 'utf8');
         return JSON.parse(data);
     } catch (err) {
         console.error('Error reading data.json:', err);
